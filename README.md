@@ -11,5 +11,5 @@ Automatic perivascular space segmentation on T2-weighted MR images
 ## DL-based ROI & PVS segmentation
 - A deep learning is an effective way to reduce false positives.
 - In our initial method, the DL model was designed in a way that classfies FP from the Frangi filtering result [(HBM 2021)](https://doi.org/10.1002/hbm.25194). 
-- The current version was learned using the accumulated PVS and ROI segmentations, both ROI (white matter & deep gray matter regions) and PVS can be simultaneously segmented from T2 input.
+- The current version was learned using the PVS and ROI segmentations, both ROI (white matter & deep gray matter regions) and PVS can be simultaneously segmented from T2 input.
 - [Inference code](#pvsseg)
