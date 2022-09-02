@@ -9,7 +9,7 @@ Automatic perivascular space segmentation on T2-weighted MR images
 - [Frangi filtering (jupyter notebook)](notebook/example_frangi_T2.ipynb)
 
 ## Frangi-based BG PVS volume calculation in the neonatal brain
-- Input: 3D T2-weigthed MR image & Tissue segmentation from infant freesurfer
+- Input: 3D T2-weigthed MR image & Tissue segmentation from [infant freesurfer](https://github.com/hufsaim/pvsseg)
 - Output: BG (Basal Ganglia) PVS segmentation
 ![BG PVS segmentation of neonatal brain](https://github.com/hufsaim/pvsseg/blob/main/notebook/neonate_bgpvs_vol.png)
 - [BG PVS volume calculation (jupyter notebook)](notebook/neonate_bgpvs_vol.ipynb)
